@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url("images/wallpaper.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .pagination {
+            display: inline-block;
+        }
+
+            .pagination a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                border: 1px solid #ddd;
+            }
+
+                .pagination a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                    border: 1px solid #4CAF50;
+                }
+
+                .pagination a:hover:not(.active) {
+                    background-color: #ddd;
+                }
+
+                .pagination a:first-child {
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+
+                .pagination a:last-child {
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <img src="images\vogue.png" class="img-thumbnail" style="height:300px" />
+                    <h2> VOGUE DERGİSİ</h2>
+                    <form action="vogue.html">
+                        <input type="submit" value="OKU" />
+                    </form>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images\leman.jpg" class="img-thumbnail" style="height:300px" />
+                    <h2> LEMAN DERGİSİ</h2>
+                    <form action="leman.html">
+                        <input type="submit" value="OKU" / >
+                    </form>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images\bilimteknik.jpg" class="img-thumbnail" style="height:300px" />
+                    <h2> BİLİM VE TEKNİK DERGİSİ</h2>
+                    <form action="bilimteknik.html">
+                        <input type="submit" value="OKU" / >
+
+                    </form>
+
+
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images\genisaci.jpg" class="img-thumbnail" style="height:300px" />
+                    <h2> GENİŞ AÇI DERGİSİ </h2>
+                    <form action="genisaci.html">
+                        <input type="submit" value="OKU" / >
+                    </form>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2></h2>
+
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="KUTUPHANEM2.html">1</a>
+                        <a class="active" href="kutuphanem3.html">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
